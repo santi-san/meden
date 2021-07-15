@@ -7,10 +7,270 @@
 @stop
 
 @section('content')
-    <p>Here will be the content.
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi nisi neque totam aut error vel architecto inventore quod incidunt unde, dignissimos illum veritatis aliquam praesentium. Natus accusamus omnis temporibus ducimus numquam non? Voluptates sunt vitae ipsam odit voluptatum deserunt rem maxime ex consequatur dignissimos. Atque ducimus nam vel ex non provident cupiditate commodi, laborum optio assumenda vero vitae molestiae quia ipsam minus iusto ipsum accusantium? Et expedita possimus accusantium officiis? Aspernatur quis ipsa cumque deserunt corrupti dolorum sint, et minus quae atque officiis provident blanditiis similique nihil autem voluptatum laudantium sapiente consectetur laborum odit tempore? Eveniet, amet id repellat, vero corrupti natus autem enim repudiandae minima doloremque incidunt ipsum iste soluta quo illo sed earum ea a accusamus optio explicabo quas! Officiis porro aut blanditiis vitae dicta laboriosam, perferendis ad exercitationem, eligendi eaque error sunt. Nemo ducimus iusto assumenda nesciunt id similique optio quasi autem culpa exercitationem molestias quae commodi enim earum magnam tempore recusandae, iure rem odio ad voluptates quo quisquam. Alias nemo rerum cumque dolor consequatur! Eveniet cupiditate reiciendis minus nemo ad fugiat laborum aliquam? Eius, voluptatum exercitationem officia maxime sapiente, doloremque mollitia quod facere nisi eum delectus laborum tempora itaque maiores eveniet, quas qui temporibus ex nobis odio inventore saepe? Odit, doloribus eum unde vitae ad ullam, sunt corporis maxime quaerat esse est dolorum modi fugiat sapiente voluptates aperiam neque, itaque obcaecati rerum ut sit cupiditate amet. Corporis officiis architecto harum, dignissimos non esse tempore minus, quaerat ducimus ea velit vel laudantium accusamus incidunt ipsa deleniti consequatur rerum cum quam iure error maxime autem molestias! Expedita maxime esse atque exercitationem dolore sit tenetur suscipit, labore officia odit, enim iusto, beatae eveniet. Deleniti minima ipsam sed maxime, expedita consectetur aliquid sit fugiat deserunt quo dolores ea! Dignissimos modi esse numquam facilis eum totam saepe quibusdam deserunt laborum adipisci molestiae vero quos cupiditate eaque, atque architecto amet, praesentium laboriosam? Iusto ab inventore incidunt praesentium molestias, natus quidem vero et aperiam minima voluptate! Officia ad aliquid sed magnam voluptatum quia quibusdam. Possimus, omnis laudantium non neque exercitationem distinctio ullam dolor odit odio aut veniam amet, quia quibusdam quaerat? Fugit pariatur esse nisi soluta cumque autem possimus ad temporibus ratione aut excepturi enim tempora aliquid vero incidunt illo, veniam ea. Ipsam sed aliquam voluptate esse nostrum odio perferendis excepturi natus exercitationem accusamus quaerat est ipsum minus sint itaque magnam fugiat, quae distinctio, deleniti illo vero ex sit. Eveniet nemo distinctio reiciendis? Quia, corrupti voluptate est odio repellat deleniti veritatis dignissimos maiores eum cupiditate molestias excepturi facere. Labore voluptas quibusdam, ipsam quis tenetur porro. Id aut nisi facere culpa doloremque! Quasi, dolores. Saepe velit, libero quibusdam provident officiis a quo! Voluptate, possimus earum quidem praesentium nulla voluptatum sunt quas inventore fuga a, atque porro at exercitationem provident! Perspiciatis cupiditate ducimus eveniet! Sed laborum tenetur quos dolor porro odio dicta vero ullam optio nisi a, fuga possimus quam quo deserunt, quidem quibusdam eaque eum ea? Dolore laudantium maiores accusamus. Placeat nemo soluta explicabo dicta perspiciatis? Ipsa, corporis. Nemo rem quo qui minima, nam molestias ullam cumque officiis quos? Natus quos modi molestias adipisci ex beatae autem eos, pariatur voluptate. Porro soluta ratione, dolores error explicabo blanditiis adipisci dicta fugit accusamus excepturi et laboriosam dignissimos, quis provident distinctio incidunt odit debitis expedita neque praesentium id quod. Commodi iste rerum eos accusantium veniam recusandae? Atque nobis sit incidunt, laboriosam maiores repellat quis aperiam ex inventore quas ut, illo dignissimos repellendus minima deleniti nemo pariatur quisquam dolorem architecto culpa officia praesentium eius? Quod numquam voluptas suscipit, possimus dolorem eveniet quos officia aspernatur at deleniti repudiandae atque. Eligendi itaque sed ad quibusdam quo, reprehenderit ea, ab modi labore eveniet, earum perferendis quae sint! Incidunt, eaque asperiores maxime quas eligendi quod doloribus adipisci mollitia odio perspiciatis, et nemo obcaecati unde itaque quos dolorem, impedit provident iste eius voluptatibus hic eos soluta quia earum! Molestias ex nemo voluptatum accusantium, iure reiciendis blanditiis perspiciatis cupiditate! Ratione vero necessitatibus iure animi quae beatae adipisci unde? Sed explicabo accusamus harum sapiente asperiores saepe debitis. Sed quisquam ut eveniet recusandae similique aliquam omnis nisi non beatae perferendis voluptatem ea velit eos, inventore consequuntur odit minima autem magnam minus officiis veritatis. Aperiam molestias quaerat distinctio beatae eum omnis accusantium earum, repellat et quia. Facere atque explicabo quo ea optio harum dolor maxime, officia aut voluptatem illo maiores, magnam impedit nulla. Id labore distinctio velit vero officia veniam obcaecati omnis dolor sunt quasi voluptas perferendis culpa, iure nihil. Cupiditate vero exercitationem at maxime. Nam tenetur harum numquam minus repellendus dolorum quas, neque consectetur placeat laboriosam nobis eos nostrum rem nesciunt aperiam. A officiis quibusdam fugiat accusantium dolorum veniam quam! Voluptatibus sunt asperiores molestiae nisi quis magni suscipit, accusamus dolores delectus id ex illo eum iusto quidem obcaecati, rem error tempora ullam eaque perspiciatis hic natus! Assumenda nam architecto magni? Vitae, fugit. Excepturi quae vel minus, laudantium officiis, atque adipisci sequi dolore animi repellendus inventore fugiat. Exercitationem nulla eaque vero, quam laborum distinctio ut illo nesciunt, doloribus, reiciendis dolorum sint nihil aperiam? Hic praesentium illum suscipit dignissimos voluptatum quasi, nostrum, eligendi inventore vel placeat minus alias amet iste, debitis mollitia ex totam provident voluptatibus impedit! Qui ad inventore maiores, cum ullam vero minus atque modi quos deserunt officiis possimus, fugit, ex dolores commodi? Quae, vel. Obcaecati alias accusantium recusandae ratione reiciendis! Similique sequi iste impedit earum. Maxime quos excepturi aperiam dolor atque a. Voluptas, enim in rem ad vel exercitationem eum cumque incidunt quae qui a!
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam ullam, facere recusandae ipsum similique laborum, praesentium quaerat, voluptatem ex ad iusto repudiandae! Accusamus fugiat placeat quos debitis? Explicabo molestias iste asperiores blanditiis earum, qui nisi illum tempore pariatur repellendus tempora atque culpa sed magnam quidem eligendi recusandae sint modi libero deleniti. Voluptatum hic perferendis eaque maiores voluptatem perspiciatis maxime sint voluptas ipsum magnam eum porro accusantium eveniet itaque cupiditate doloribus vel sed laborum atque, adipisci ex id animi recusandae! Eligendi sint ducimus debitis accusantium nesciunt ipsum nihil eaque. Laboriosam voluptates laborum quia ad adipisci enim, earum maxime ratione veritatis, magnam iste eaque fugiat atque. Magni, in. Necessitatibus placeat facilis itaque accusamus consequatur quae temporibus, illo aliquam cumque adipisci dolor rerum unde velit, nam saepe odit neque provident voluptatum ipsum fuga? Qui delectus debitis sint illum? Maxime accusamus cumque alias temporibus animi officia fugiat, dolore, esse vitae aperiam itaque saepe autem soluta neque ab minus a voluptate id nam quae quas aliquid porro! Facilis ea cum dolorem dicta a magnam officia porro consequuntur quaerat natus. Saepe animi repellat velit libero enim consequuntur, molestias doloremque accusamus similique itaque ut sequi voluptate doloribus atque maxime minima expedita! Praesentium ipsam laboriosam commodi? Nesciunt veniam, autem commodi inventore repellat iure? Perferendis nostrum maiores fugit inventore eligendi saepe architecto atque error? Rerum ad magni sed assumenda esse cum! Ducimus sed deserunt culpa cupiditate neque, explicabo temporibus ut autem incidunt facere et praesentium nulla itaque molestiae eveniet similique illo corrupti impedit ratione iste quibusdam consequuntur unde qui tempora! Obcaecati voluptates magnam quas consequuntur perferendis neque quae voluptatibus, omnis eum vero cumque, voluptate facere atque, hic voluptatem quibusdam repellat unde! Quae consequuntur velit nostrum voluptatem aut doloribus fugiat aliquam id in quisquam eligendi amet ab illum commodi repudiandae, quibusdam, perferendis officiis soluta? Deleniti nobis voluptatem accusantium temporibus facilis nesciunt obcaecati aliquam molestias saepe! Numquam, dignissimos ipsa quaerat sint officiis ratione est laborum repellat temporibus velit aperiam aliquam adipisci voluptates cupiditate dolor sapiente illo quis sunt eaque consequuntur rerum. Odio nostrum, fugiat obcaecati amet corrupti soluta, rem suscipit consequuntur similique debitis harum maxime, repellat laboriosam beatae est mollitia! Magnam, ipsam iure sint rem similique aliquid maiores facere dolores molestiae repellendus quasi, distinctio facilis unde id mollitia accusamus maxime? Suscipit dolor, ut nobis aliquid ad quam, iusto in eum at quas vero, accusamus cum. Recusandae ab, earum optio nihil laboriosam ratione, totam a commodi quam voluptatum quis natus suscipit architecto? Distinctio ipsa repudiandae iste quaerat laborum dolorem error quasi nulla tempore nemo enim cum aliquid sit numquam rerum, architecto obcaecati eum blanditiis vel laudantium eius qui suscipit. Ad voluptatibus odio impedit aperiam nesciunt, sunt deserunt qui sit harum nisi. Debitis soluta ad consectetur accusantium, asperiores nam, excepturi hic ducimus nobis corrupti, fugit dolore quibusdam cumque aliquid autem. Doloribus blanditiis sed, beatae reprehenderit placeat, laudantium cumque maiores voluptatibus dolorum quam saepe esse illum nisi dolore quidem voluptatem nihil. Magnam mollitia, sed, modi adipisci sit velit quia maxime recusandae eveniet quidem vitae animi minima voluptate vel vero aliquid tempora aspernatur, iure repellendus!
-    </p>
+    <div class="row">
+        {{-- Top Artists --}}
+        <div class="col-12 col-sm-12 col-lg-6 col-xl-6 pb-3">
+            <div class="bg-dark rounded-lg pt-3 px-3 ">
+                <div class="d-flex justify-content-between pb-3">
+                    <div>TOP ARTISTS <span class="text-xs">(This week)</span></div>
+                    <div>See All</div>
+                </div>
+                <div class="row">
+                    <div class="col-2 col-sm-2 col-lg-3 col-xl-2 ">
+                        <div>
+                            <img class="rounded-lg img-fluid" src="{{Storage::url('cross.jpg')}}" alt="" >
+                        </div>
+                        <div class="text-center  text-responsive text-responsive text-truncate">
+                            Justice 1
+                            <p class="text-sm text-muted">157 views</p>
+                        </div>
+                    </div>
+                    <div class="col-2 col-sm-2 col-lg-3 col-xl-2 ">
+                        <div>
+                            <img class="rounded-lg img-fluid" src="{{Storage::url('say_hello_album.jpg')}}" alt="" >
+                        </div>
+                        <div class="text-center text-responsive text-truncate">
+                            Deep Dish
+                            <p class="text-sm text-muted">154 views</p>
+                        </div>
+                    </div>
+                    <div class="col-2 col-sm-2 col-lg-3 col-xl-2 ">
+                        <div>
+                            <img class="rounded-lg img-fluid" src="{{Storage::url('justice-band.jpg')}}" alt="" >
+                        </div>
+                        <div class="text-center text-responsive text-truncate">
+                            Justice Bamnd
+                            <p class="text-sm text-muted">130 views</p>
+                        </div>
+                    </div>
+                    <div class="col-2 col-sm-2 col-lg-3 col-xl-2 ">
+                        <div>
+                            <img class="rounded-lg img-fluid" src="{{Storage::url('deepdish.png')}}" alt="" >
+                        </div>
+                        <div class="text-center text-responsive text-truncate">
+                            Random Artists
+                            <p class="text-sm text-muted">128 views</p>
+                            
+                        </div>
+                    </div>
+                    <div class="col-2 col-sm-2 col-lg-3 col-xl-2 ">
+                        <div>
+                            <img class="rounded-lg img-fluid" src="{{Storage::url('banda-republic.jpg')}}" alt="" >
+                        </div>
+                        <div class="text-center text-responsive text-truncate">
+                            Jupiter
+                            <p class="text-sm text-muted">112 views</p>
+                            
+                        </div>
+                    </div>
+                    <div class="col-2 col-sm-2 col-lg-3 col-xl-2 ">
+                        <div>
+                            <img class="rounded-lg img-fluid" src="{{Storage::url('say_hello_album.jpg')}}" alt="" >
+                        </div>
+                        <div class="text-center text-responsive text-truncate">
+                            Deeper 
+                            <p class="text-sm text-muted">75 views</p>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        {{-- Top Albums --}}
+        <div class="col-12 col-sm-12 col-lg-6 col-xl-6 pb-3">
+            <div class="bg-dark rounded-lg pt-3 px-3 ">
+                <div class="d-flex justify-content-between pb-3">
+                    <div>TOP ALBUMS <span class="text-xs">(This week)</span></div>
+                    <div>See All</div>
+                </div>
+                <div class="row">
+                    <div class="col-2 col-sm-2 col-lg-3 col-xl-2 ">
+                        <div>
+                            <img class="rounded-lg img-fluid" src="{{Storage::url('cross.jpg')}}" alt="" >
+                        </div>
+                        <div class="text-responsive text-truncate">
+                            Cross †
+                                <p class="text-sm text-muted">954 views</p>
+                        </div>
+                        
+                    </div>
+                    <div class="col-2 col-sm-2 col-lg-3 col-xl-2 ">
+                        <div>
+                            <img class="rounded-lg img-fluid" src="{{Storage::url('say_hello_album.jpg')}}" alt="" >
+                        </div>
+                        <div class="text-responsive text-truncate">
+                            Say Hello
+                            <p class="text-sm text-muted">948 views</p>
+                        </div>
+                    </div>
+                    <div class="col-2 col-sm-2 col-lg-3 col-xl-2 ">
+                        <div>
+                            <img class="rounded-lg img-fluid" src="{{Storage::url('justice-band.jpg')}}" alt="" >
+                        </div>
+                        <div class="text-responsive text-truncate">
+                            Arena Mix 2007
+                            <p class="text-sm text-muted">700 views</p>
+                        </div>
+                    </div>
+                    <div class="col-2 col-sm-2 col-lg-3 col-xl-2 ">
+                        <div>
+                            <img class="rounded-lg img-fluid" src="{{Storage::url('deepdish.png')}}" alt="" >
+                        </div>
+                        <div class="text-responsive text-truncate">
+                            Random Artists
+                            <p class="text-sm text-muted">640 views</p>
+                            
+                        </div>
+                    </div>
+                    <div class="col-2 col-sm-2 col-lg-3 col-xl-2 ">
+                        <div>
+                            <img class="rounded-lg img-fluid" src="{{Storage::url('banda-republic.jpg')}}" alt="" >
+                        </div>
+                        <div class="text-responsive text-truncate">
+                            Jupiter
+                            <p class="text-sm text-muted">534 views</p>
+
+                            
+                        </div>
+                    </div>
+                    <div class="col-2 col-sm-2 col-lg-3 col-xl-2 ">
+                        <div>
+                            <img class="rounded-lg img-fluid" src="{{Storage::url('say_hello_album.jpg')}}" alt="" >
+                        </div>
+                        <div class="text-responsive text-truncate">
+                            Deeper 
+                            <p class="text-sm text-muted">522 views</p>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        {{-- LATEST RELEASES --}}
+        <div class="col-12 col-sm-12 col-lg-12 col-xl-9 pb-3">
+            <div class="bg-dark rounded-lg py-3 px-3 ">
+                <div class="d-flex justify-content-between pb-3">
+                    <div>LATEST RELEASES</div>
+                    <div>See All</div>
+                </div>
+                <div class="row">
+                    <div class="col-12 col-sm-6 col-lg-4 col-xl-4 pb-2">
+                        <div style="display: flex;background: #262626;border-radius: 6px;">
+                            <div style="max-height: 60px;width: 60px;margin-right: 16px;"><img class="rounded-lg img-fluid" src="/storage/cross.jpg" alt="" style="height: 100%;object-fit: cover;width: 100%;"></div>
+
+                            <div class="text-responsive text-truncate" style="width: calc(100% - 86px);align-self: center;">
+                                Renaissance - The Mix Collection
+                                    <span class="text-sm text-truncate text-muted" style="display: block;">Gui Boratto</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-4 col-xl-4 pb-2">
+                        <div style="display: flex;background: #262626;border-radius: 6px;">
+                            <div style="max-height: 60px;width: 60px;margin-right: 16px;"><img class="rounded-lg img-fluid" src="/storage/cross.jpg" alt="" style="height: 100%;object-fit: cover;width: 100%;"></div>
+
+                            <div class="text-responsive " style="width: calc(100% - 86px);align-self: center;">
+                                Cross †
+                                    <span class="text-sm text-truncate text-muted" style="display: block;">Renaissance - The Mix Collection</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-4 col-xl-4 pb-2">
+                        <div style="display: flex;background: #262626;border-radius: 6px;">
+                            <div style="max-height: 60px;width: 60px;margin-right: 16px;"><img class="rounded-lg img-fluid" src="/storage/cross.jpg" alt="" style="height: 100%;object-fit: cover;width: 100%;"></div>
+
+                            <div class="text-responsive " style="width: calc(100% - 86px);align-self: center;">
+                                Cross †
+                                    <span class="text-sm text-muted" style="display: block;">Justice</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-4 col-xl-4 pb-2">
+                        <div style="display: flex;background: #262626;border-radius: 6px;">
+                            <div style="max-height: 60px;width: 60px;margin-right: 16px;"><img class="rounded-lg img-fluid" src="/storage/cross.jpg" alt="" style="height: 100%;object-fit: cover;width: 100%;"></div>
+
+                            <div class="text-responsive " style="width: calc(100% - 86px);align-self: center;">
+                                Cross †
+                                    <span class="text-sm text-muted" style="display: block;">Justice</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-4 col-xl-4 pb-2">
+                        <div style="display: flex;background: #262626;border-radius: 6px;">
+                            <div style="max-height: 60px;width: 60px;margin-right: 16px;"><img class="rounded-lg img-fluid" src="/storage/cross.jpg" alt="" style="height: 100%;object-fit: cover;width: 100%;"></div>
+
+                            <div class="text-responsive " style="width: calc(100% - 86px);align-self: center;">
+                                Cross †
+                                    <span class="text-sm text-muted" style="display: block;">Justice</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-4 col-xl-4 pb-2">
+                        <div style="display: flex;background: #262626;border-radius: 6px;">
+                            <div style="max-height: 60px;width: 60px;margin-right: 16px;"><img class="rounded-lg img-fluid" src="/storage/cross.jpg" alt="" style="height: 100%;object-fit: cover;width: 100%;"></div>
+
+                            <div class="text-responsive " style="width: calc(100% - 86px);align-self: center;">
+                                Cross †
+                                    <span class="text-sm text-muted" style="display: block;">Justice</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-4 col-xl-4 pb-2">
+                        <div style="display: flex;background: #262626;border-radius: 6px;">
+                            <div style="max-height: 60px;width: 60px;margin-right: 16px;"><img class="rounded-lg img-fluid" src="/storage/cross.jpg" alt="" style="height: 100%;object-fit: cover;width: 100%;"></div>
+
+                            <div class="text-responsive " style="width: calc(100% - 86px);align-self: center;">
+                                Cross †
+                                    <span class="text-sm text-muted" style="display: block;">Justice</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-4 col-xl-4 pb-2">
+                        <div style="display: flex;background: #262626;border-radius: 6px;">
+                            <div style="max-height: 60px;width: 60px;margin-right: 16px;"><img class="rounded-lg img-fluid" src="/storage/cross.jpg" alt="" style="height: 100%;object-fit: cover;width: 100%;"></div>
+
+                            <div class="text-responsive " style="width: calc(100% - 86px);align-self: center;">
+                                Cross †
+                                    <span class="text-sm text-muted" style="display: block;">Justice</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-4 col-xl-4 pb-2">
+                        <div style="display: flex;background: #262626;border-radius: 6px;">
+                            <div style="max-height: 60px;width: 60px;margin-right: 16px;"><img class="rounded-lg img-fluid" src="/storage/cross.jpg" alt="" style="height: 100%;object-fit: cover;width: 100%;"></div>
+
+                            <div class="text-responsive " style="width: calc(100% - 86px);align-self: center;">
+                                Cross †
+                                    <span class="text-sm text-muted" style="display: block;">Justice</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        {{-- Genres --}}
+        <div class="col-12 col-sm-12 col-lg-12 col-xl-3 ">
+            <div class="bg-dark rounded-lg py-3 px-3 ">
+                <div class="d-flex justify-content-between pb-3">
+                    <div>TOP GENRES</div>
+                    <div>See All</div>
+                </div>
+                <p class="px-2 py-2 mb-2 d-inline-block bg-white rounded-lg">Minimal</p>
+                <p class="px-2 py-2 mb-2 d-inline-block bg-white rounded-lg">House</p>
+                <p class="px-2 py-2 mb-2 d-inline-block bg-white rounded-lg">Dance</p>
+                <p class="px-2 py-2 mb-2 d-inline-block bg-white rounded-lg">Electronic</p>
+                <p class="px-2 py-2 mb-2 d-inline-block bg-white rounded-lg">Jazz</p>
+                <p class="px-2 py-2 mb-2 d-inline-block bg-white rounded-lg">Kpop</p>
+                <p class="px-2 py-2 mb-2 d-inline-block bg-white rounded-lg">Pop</p>
+                <p class="px-2 py-2 mb-2 d-inline-block bg-white rounded-lg">Chill</p>
+                <p class="px-2 py-2 mb-2 d-inline-block bg-white rounded-lg">Drum and Bass</p>
+                <p class="px-2 py-2 mb-2 d-inline-block bg-white rounded-lg">Progressive</p>
+                <p class="px-2 py-2 mb-2 d-inline-block bg-white rounded-lg">Electronic</p>
+                <p class="px-2 py-2 mb-2 d-inline-block bg-white rounded-lg">Jazz</p>
+                <p class="px-2 py-2 mb-2 d-inline-block bg-white rounded-lg">Kpop</p>
+                
+            </div>
+        </div>
+    </div>
 @stop
 
 @section('css')
