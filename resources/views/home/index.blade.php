@@ -76,7 +76,7 @@
                 </div>
             </div>
         </div>
-        {{-- Top Albums --}}
+        {{-- Top ALBUMS --}}
         <div class="col-12 col-sm-12 col-lg-6 col-xl-6 pb-3">
             <div class="bg-dark rounded-lg pt-3 px-3 ">
                 <div class="d-flex justify-content-between pb-3">
@@ -88,37 +88,36 @@
                         <div>
                             <img class="rounded-lg img-fluid" src="{{Storage::url('cross.jpg')}}" alt="" >
                         </div>
-                        <div class="text-responsive text-truncate">
-                            Cross †
-                                <p class="text-sm text-muted">954 views</p>
+                        <div class="text-center  text-responsive text-responsive text-truncate">
+                            <a href="/artist/name"> Justice 1</a>
+                            <p class="text-sm text-muted">157 views</p>
                         </div>
-                        
                     </div>
                     <div class="col-2 col-sm-2 col-lg-3 col-xl-2 ">
                         <div>
                             <img class="rounded-lg img-fluid" src="{{Storage::url('say_hello_album.jpg')}}" alt="" >
                         </div>
-                        <div class="text-responsive text-truncate">
-                            Say Hello
-                            <p class="text-sm text-muted">948 views</p>
+                        <div class="text-center text-responsive text-truncate">
+                            Deep Dish
+                            <p class="text-sm text-muted">154 views</p>
                         </div>
                     </div>
                     <div class="col-2 col-sm-2 col-lg-3 col-xl-2 ">
                         <div>
                             <img class="rounded-lg img-fluid" src="{{Storage::url('justice-band.jpg')}}" alt="" >
                         </div>
-                        <div class="text-responsive text-truncate">
-                            Arena Mix 2007
-                            <p class="text-sm text-muted">700 views</p>
+                        <div class="text-center text-responsive text-truncate">
+                            Justice Bamnd
+                            <p class="text-sm text-muted">130 views</p>
                         </div>
                     </div>
                     <div class="col-2 col-sm-2 col-lg-3 col-xl-2 ">
                         <div>
                             <img class="rounded-lg img-fluid" src="{{Storage::url('deepdish.png')}}" alt="" >
                         </div>
-                        <div class="text-responsive text-truncate">
+                        <div class="text-center text-responsive text-truncate">
                             Random Artists
-                            <p class="text-sm text-muted">640 views</p>
+                            <p class="text-sm text-muted">128 views</p>
                             
                         </div>
                     </div>
@@ -126,10 +125,9 @@
                         <div>
                             <img class="rounded-lg img-fluid" src="{{Storage::url('banda-republic.jpg')}}" alt="" >
                         </div>
-                        <div class="text-responsive text-truncate">
+                        <div class="text-center text-responsive text-truncate">
                             Jupiter
-                            <p class="text-sm text-muted">534 views</p>
-
+                            <p class="text-sm text-muted">112 views</p>
                             
                         </div>
                     </div>
@@ -137,10 +135,10 @@
                         <div>
                             <img class="rounded-lg img-fluid" src="{{Storage::url('say_hello_album.jpg')}}" alt="" >
                         </div>
-                        <div class="text-responsive text-truncate">
+                        <div class="text-center text-responsive text-truncate">
                             Deeper 
-                            <p class="text-sm text-muted">522 views</p>
-
+                            <p class="text-sm text-muted">75 views</p>
+                            
                         </div>
                     </div>
                 </div>
