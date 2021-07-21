@@ -14,5 +14,9 @@ class HomeController extends Controller
         return view('home.artist');
     }
 
+    public function album(){
+        return view('home.album');
+    }
+
 
 }

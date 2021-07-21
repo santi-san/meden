@@ -18,29 +18,11 @@
                 <div class="row">
                     <div class="col-2 col-sm-2 col-lg-3 col-xl-2 ">
                         <div>
-                            <img class="rounded-lg img-fluid" src="{{Storage::url('cross.jpg')}}" alt="" >
-                        </div>
-                        <div class="text-center  text-responsive text-responsive text-truncate">
-                            Justice 1
-                            <p class="text-sm text-muted">157 views</p>
-                        </div>
-                    </div>
-                    <div class="col-2 col-sm-2 col-lg-3 col-xl-2 ">
-                        <div>
-                            <img class="rounded-lg img-fluid" src="{{Storage::url('say_hello_album.jpg')}}" alt="" >
-                        </div>
-                        <div class="text-center text-responsive text-truncate">
-                            Deep Dish
-                            <p class="text-sm text-muted">154 views</p>
-                        </div>
-                    </div>
-                    <div class="col-2 col-sm-2 col-lg-3 col-xl-2 ">
-                        <div>
                             <img class="rounded-lg img-fluid" src="{{Storage::url('justice-band.jpg')}}" alt="" >
                         </div>
-                        <div class="text-center text-responsive text-truncate">
-                            Justice Bamnd
-                            <p class="text-sm text-muted">130 views</p>
+                        <div class="text-center  text-responsive text-responsive text-truncate">
+                            <a href="/artist-name" class="text-reset">Justice</a>
+                            <p class="text-sm text-muted">157 views</p>
                         </div>
                     </div>
                     <div class="col-2 col-sm-2 col-lg-3 col-xl-2 ">
@@ -48,27 +30,45 @@
                             <img class="rounded-lg img-fluid" src="{{Storage::url('deepdish.png')}}" alt="" >
                         </div>
                         <div class="text-center text-responsive text-truncate">
-                            Random Artists
+                            <a href="/artist-name" class="text-reset">Deep Dish</a>
+                            <p class="text-sm text-muted">154 views</p>
+                        </div>
+                    </div>
+                    <div class="col-2 col-sm-2 col-lg-3 col-xl-2 ">
+                        <div>
+                            <img class="rounded-lg img-fluid" src="{{Storage::url('mgmt.jpg')}}" alt="" >
+                        </div>
+                        <div class="text-center text-responsive text-truncate">
+                            <a href="/artist-name" class="text-reset">MGMT</a>
+                            <p class="text-sm text-muted">130 views</p>
+                        </div>
+                    </div>
+                    <div class="col-2 col-sm-2 col-lg-3 col-xl-2 ">
+                        <div>
+                            <img class="rounded-lg img-fluid" src="{{Storage::url('heize.jpg')}}" alt="" >
+                        </div>
+                        <div class="text-center text-responsive text-truncate">
+                            <a href="/artist-name" class="text-reset">Heize</a>
                             <p class="text-sm text-muted">128 views</p>
                             
                         </div>
                     </div>
                     <div class="col-2 col-sm-2 col-lg-3 col-xl-2 ">
                         <div>
-                            <img class="rounded-lg img-fluid" src="{{Storage::url('banda-republic.jpg')}}" alt="" >
+                            <img class="rounded-lg img-fluid" src="{{Storage::url('cattaneo.jpg')}}" alt="" >
                         </div>
                         <div class="text-center text-responsive text-truncate">
-                            Jupiter
+                            <a href="/artist-name" class="text-reset">Hernan Cattaneo</a>
                             <p class="text-sm text-muted">112 views</p>
                             
                         </div>
                     </div>
                     <div class="col-2 col-sm-2 col-lg-3 col-xl-2 ">
                         <div>
-                            <img class="rounded-lg img-fluid" src="{{Storage::url('say_hello_album.jpg')}}" alt="" >
+                            <img class="rounded-lg img-fluid" src="{{Storage::url('jupiter.jpg')}}" alt="" >
                         </div>
                         <div class="text-center text-responsive text-truncate">
-                            Deeper 
+                            <a href="/artist-name" class="text-reset">Jupiter </a>
                             <p class="text-sm text-muted">75 views</p>
                             
                         </div>
@@ -89,7 +89,7 @@
                             <img class="rounded-lg img-fluid" src="{{Storage::url('cross.jpg')}}" alt="" >
                         </div>
                         <div class="text-center  text-responsive text-responsive text-truncate">
-                            <a href="/artist/name"> Justice 1</a>
+                            <a href="/album-name" class="text-reset">Cross</a>
                             <p class="text-sm text-muted">157 views</p>
                         </div>
                     </div>
@@ -98,45 +98,45 @@
                             <img class="rounded-lg img-fluid" src="{{Storage::url('say_hello_album.jpg')}}" alt="" >
                         </div>
                         <div class="text-center text-responsive text-truncate">
-                            Deep Dish
+                            <a href="/album-name" class="text-reset">Say Hello</a>
                             <p class="text-sm text-muted">154 views</p>
                         </div>
                     </div>
                     <div class="col-2 col-sm-2 col-lg-3 col-xl-2 ">
                         <div>
-                            <img class="rounded-lg img-fluid" src="{{Storage::url('justice-band.jpg')}}" alt="" >
+                            <img class="rounded-lg img-fluid" src="{{Storage::url('planisphere.jpg')}}" alt="" >
                         </div>
                         <div class="text-center text-responsive text-truncate">
-                            Justice Bamnd
+                            <a href="/album-name" class="text-reset">Planisphere</a>
                             <p class="text-sm text-muted">130 views</p>
                         </div>
                     </div>
                     <div class="col-2 col-sm-2 col-lg-3 col-xl-2 ">
                         <div>
-                            <img class="rounded-lg img-fluid" src="{{Storage::url('deepdish.png')}}" alt="" >
+                            <img class="rounded-lg img-fluid" src="{{Storage::url('flashdance.jpg')}}" alt="" >
                         </div>
                         <div class="text-center text-responsive text-truncate">
-                            Random Artists
+                            <a href="/album-name" class="text-reset">FlashDance</a>
                             <p class="text-sm text-muted">128 views</p>
                             
                         </div>
                     </div>
                     <div class="col-2 col-sm-2 col-lg-3 col-xl-2 ">
                         <div>
-                            <img class="rounded-lg img-fluid" src="{{Storage::url('banda-republic.jpg')}}" alt="" >
+                            <img class="rounded-lg img-fluid" src="{{Storage::url('bandana_republic.jpg')}}" alt="" >
                         </div>
                         <div class="text-center text-responsive text-truncate">
-                            Jupiter
+                            <a href="/album-name" class="text-reset">Bandana</a>
                             <p class="text-sm text-muted">112 views</p>
                             
                         </div>
                     </div>
                     <div class="col-2 col-sm-2 col-lg-3 col-xl-2 ">
                         <div>
-                            <img class="rounded-lg img-fluid" src="{{Storage::url('say_hello_album.jpg')}}" alt="" >
+                            <img class="rounded-lg img-fluid" src="{{Storage::url('Noze_Dring.jpg')}}" alt="" >
                         </div>
                         <div class="text-center text-responsive text-truncate">
-                            Deeper 
+                            <a href="/artist-name" class="text-reset">Dring</a>
                             <p class="text-sm text-muted">75 views</p>
                             
                         </div>
@@ -159,7 +159,7 @@
                             <div class="text-responsive text-truncate" style="width: calc(100% - 86px);align-self: center;">
                                 Renaissance - The Mix Collection
                                     <span class="text-sm text-truncate text-muted" style="display: block;">Gui Boratto</span>
-                            </div>
+                        </div>  
                         </div>
                     </div>
                     <div class="col-12 col-sm-6 col-lg-4 col-xl-4 pb-2">
