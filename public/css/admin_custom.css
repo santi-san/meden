@@ -24,13 +24,34 @@
     left: 0;
     right: 0;
     content: "";
-    display: inline-block;
     width: 100%;
     height: 100%;
     background: inherit;
-    filter: blur(6px);
+    filter: blur(8px);
     transition: 0.3s all;
-    transform: translateY(8px) scale(0.9);
+    transform: translateY(12px) scale(0.9)
+}
+.kard:hover > .img-filter::before, .kard:hover > .img-filter::after{
+    position: absolute;
+    top: 0;
+    filter: blur(0px);
+    transition: 0.3s all;
+    transform: translateY(0px) scale(0.9);
+}
+
+.bg-latest{
+    background: #f0f0f0;
+}
+.bg-latest:hover{
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+}
+
+.kard > div:nth-child(2){
+    transition: 0.3s all;
+}
+
+.kard:hover > div:nth-child(2){
+    transform: translateY(-10px);
 }
 
 /* col */
