@@ -9,10 +9,13 @@
 @section('content')
     <div class="row">
         {{-- Top Artists --}}
-        <div class="col-12 col-sm-12 col-lg-6 col-xl-6 mb-3 ">
-            <div class="shadow-xs rounded-lg py-3 px-3 ">
+        <div class="col-12 col-sm-12 col-lg-6 col-xl-6 mb-3">
+            <div class="shadow-xs rounded-lg py-3 px-3 light-bg">
                 <div class="d-flex justify-content-between pb-3">
-                    <div>TOP ARTISTS <span class="text-xs">(This week)</span></div>
+                    <div>
+                        <span class="title">TOP ARTISTS</span>
+                        <span class="text-xs">(This week)</span>
+                    </div>
                     <div>See All</div>
                 </div>
                 <div class="row">
@@ -22,7 +25,7 @@
                                 <img class="rounded-lg img-fluid img-index" src="{{Storage::url('justice-band.jpg')}}" alt="" >
                             </div>
                             <div class="text-center text-responsive text-truncate mt-3">
-                                <a href="/artist-name" class="text-reset font-weight-bold">Justice</a>
+                                <a href="/artist-name" class="kard-link font-weight-bold">Justice</a>
                                 <p class="text-sm text-muted">157 views</p>
                             </div>
                         </div>
@@ -33,7 +36,7 @@
                                 <img class="rounded-lg img-fluid img-index" src="{{Storage::url('deepdish.png')}}" alt="" >
                             </div>
                             <div class="text-center text-responsive text-truncate mt-3">
-                                <a href="/artist-name" class="text-reset font-weight-bold">Deep Dish</a>
+                                <a href="/artist-name" class="kard-link font-weight-bold">Deep Dish</a>
                                 <p class="text-sm text-muted">154 views</p>
                             </div>
                         </div>
@@ -44,7 +47,7 @@
                                 <img class="rounded-lg img-fluid img-index" src="{{Storage::url('mgmt.jpg')}}" alt="" >
                             </div>
                             <div class="text-center text-responsive text-truncate mt-3">
-                                <a href="/artist-name" class="text-reset font-weight-bold">MGMT</a>
+                                <a href="/artist-name" class="kard-link font-weight-bold">MGMT</a>
                                 <p class="text-sm text-muted">130 views</p>
                             </div>
                         </div>
@@ -55,7 +58,7 @@
                                 <img class="rounded-lg img-fluid img-index" src="{{Storage::url('heize.jpg')}}" alt="" >
                             </div>
                             <div class="text-center text-responsive text-truncate mt-3">
-                                <a href="/artist-name" class="text-reset font-weight-bold">Heize</a>
+                                <a href="/artist-name" class="kard-link font-weight-bold">Heize</a>
                                 <p class="text-sm text-muted">128 views</p>
                             </div>
                         </div>
@@ -66,7 +69,7 @@
                                 <img class="rounded-lg img-fluid img-index" src="{{Storage::url('cattaneo.jpg')}}" alt="" >
                             </div>
                             <div class="text-center text-responsive text-truncate mt-3">
-                                <a href="/artist-name" class="text-reset font-weight-bold">Hernan Cattaneo</a>
+                                <a href="/artist-name" class="kard-link font-weight-bold">Hernan Cattaneo</a>
                                 <p class="text-sm text-muted">112 views</p>
                             </div>
                         </div>
@@ -77,7 +80,7 @@
                                 <img class="rounded-lg img-fluid img-index" src="{{Storage::url('jupiter.jpg')}}" alt="" >
                             </div>
                             <div class="text-center text-responsive text-truncate mt-3">
-                                <a href="/artist-name" class="text-reset font-weight-bold">Jupiter </a>
+                                <a href="/artist-name" class="kard-link font-weight-bold">Jupiter </a>
                                 <p class="text-sm text-muted">75 views</p>
                             </div>
                         </div>
@@ -86,10 +89,13 @@
             </div>
         </div>
         {{-- Top ALBUMS --}}
-        <div class="col-12 col-sm-12 col-lg-6 col-xl-6 mb-3 ">
-            <div class="shadow-xs rounded-lg py-3 px-3 ">
+        <div class="col-12 col-sm-12 col-lg-6 col-xl-6 mb-3">
+            <div class="shadow-xs rounded-lg py-3 px-3 light-bg">
                 <div class="d-flex justify-content-between pb-3">
-                    <div>TOP ALBUMS <span class="text-xs">(This week)</span></div>
+                    <div>
+                        <span class="title">TOP ALBUMS</span>
+                        <span class="text-xs">(This week)</span>
+                    </div>
                     <div>See All</div>
                 </div>
                 <div class="row">
@@ -164,9 +170,11 @@
         </div>
         {{-- LATEST RELEASES --}}
         <div class="col-12 col-sm-12 col-lg-12 col-xl-10 mb-3">
-            <div class="shadow-xs rounded-lg py-3 px-3 ">
+            <div class="shadow-xs rounded-lg py-3 px-3 light-bg">
                 <div class="d-flex justify-content-between mb-3 ">
-                    <div>LATEST RELEASES</div>
+                    <div>
+                        <span class="title">LATEST RELEASES</span>
+                    </div>
                     <div>See All</div>
                 </div>
                 <div class="row">
@@ -283,9 +291,11 @@
         </div>
         {{-- Genres --}}
         <div class="col-12 col-sm-12 col-lg-12 col-xl-2 mb-3">
-            <div class="shadow-xs rounded-lg py-3 px-3 ">
+            <div class="shadow-xs rounded-lg py-3 px-3 light-bg">
                 <div class="d-flex justify-content-between pb-3">
-                    <div>TOP GENRES</div>
+                    <div>
+                        <span class="title">TOP GENRES</span>
+                    </div>
                     <div>See All</div>
                 </div>
                 <p class="px-2 py-2 mb-2 d-inline-block bg-white rounded-lg">Minimal</p>

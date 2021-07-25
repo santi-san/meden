@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
+
+.light-bg {
+    background: #F9FAFB;
+}
+
+
 .text-responsive{
     font-size: 1rem;
 }
@@ -40,10 +47,18 @@
 }
 
 .bg-latest{
-    background: #f0f0f0;
+    background: #F3F4F6;
 }
 .bg-latest:hover{
     box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+}
+
+.kard{
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.kard-link{
+    color: #374151;
 }
 
 .kard > div:nth-child(2){
@@ -54,6 +69,16 @@
     transform: translateY(-10px);
 }
 
+.rounded-lg-top {
+    border-top-left-radius: .3rem;
+    border-top-right-radius: .3rem;
+}
+
+
+.title{
+    color: #374151;
+    font-weight: bold;
+}
 /* col */
 @media (max-width: 576px) {
     .text-responsive{

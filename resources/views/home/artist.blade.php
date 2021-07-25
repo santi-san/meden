@@ -44,66 +44,66 @@
                 <div class="row">
                     {{-- Albums --}}
                     <div class="col-3 col-sm-3 col-lg-3 col-xl-2 pb-3 ">
-                        <div style="box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);">
+                        <div>
                             <div>
-                                <img class="rounded-lg img-fluid" src="{{Storage::url('justice/woman.jpg')}}" alt="" >
+                                <img class="rounded-lg-top img-fluid" src="{{Storage::url('justice/woman.jpg')}}" alt="" >
                             </div>
-                            <div class="text-center  text-responsive text-truncate">
+                            <div class="shadow-xs text-center text-responsive text-truncate">
                                 <a href="/artist-name" class="text-reset">Woman</a>
                                 <p class="text-sm text-muted">01/05/2020</p>
                             </div>
                         </div>
                     </div>
                     <div class="col-3 col-sm-3 col-lg-3 col-xl-2 pb-3 ">
-                        <div style="box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);">
+                        <div>
                             <div>
-                                <img class="rounded-lg img-fluid" src="{{Storage::url('justice/belladone.jpg')}}" alt="" >
+                                <img class="rounded-lg-top img-fluid" src="{{Storage::url('justice/belladone.jpg')}}" alt="" >
                             </div>
-                            <div class="text-center  text-responsive text-truncate">
+                            <div class="shadow-xs text-center text-responsive text-truncate">
                                 <a href="/artist-name" class="text-reset">belladone</a>
                                 <p class="text-sm text-muted">01/05/2020</p>
                             </div>
                         </div>
                     </div>
                     <div class="col-3 col-sm-3 col-lg-3 col-xl-2 pb-3 ">
-                        <div style="box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);">
+                        <div>
                             <div>
-                                <img class="rounded-lg img-fluid" src="{{Storage::url('justice/captain.jpg')}}" alt="" >
+                                <img class="rounded-lg-top img-fluid" src="{{Storage::url('justice/captain.jpg')}}" alt="" >
                             </div>
-                            <div class="text-center  text-responsive text-truncate">
+                            <div class="shadow-xs text-center text-responsive text-truncate">
                                 <a href="/artist-name" class="text-reset">captain</a>
                                 <p class="text-sm text-muted">01/05/2020</p>
                             </div>
                         </div>
                     </div>
                     <div class="col-3 col-sm-3 col-lg-3 col-xl-2 pb-3 ">
-                        <div style="box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);">
+                        <div>
                             <div>
-                                <img class="rounded-lg img-fluid" src="{{Storage::url('justice/safe-and-sound.jpg')}}" alt="" >
+                                <img class="rounded-lg-top img-fluid" src="{{Storage::url('justice/safe-and-sound.jpg')}}" alt="" >
                             </div>
-                            <div class="text-center  text-responsive text-truncate">
+                            <div class="shadow-xs text-center text-responsive text-truncate">
                                 <a href="/artist-name" class="text-reset">safe-and-sound</a>
                                 <p class="text-sm text-muted">01/05/2020</p>
                             </div>
                         </div>
                     </div>
                     <div class="col-3 col-sm-3 col-lg-3 col-xl-2 pb-3 ">
-                        <div style="box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);">
+                        <div>
                             <div>
-                                <img class="rounded-lg img-fluid" src="{{Storage::url('justice/vox.jpg')}}" alt="" >
+                                <img class="rounded-lg-top img-fluid" src="{{Storage::url('justice/vox.jpg')}}" alt="" >
                             </div>
-                            <div class="text-center  text-responsive text-truncate">
+                            <div class="shadow-xs text-center text-responsive text-truncate">
                                 <a href="/artist-name" class="text-reset">vox</a>
                                 <p class="text-sm text-muted">01/05/2020</p>
                             </div>
                         </div>
                     </div>
                     <div class="col-3 col-sm-3 col-lg-3 col-xl-2 pb-3 ">
-                        <div style="box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);">
+                        <div>
                             <div>
-                                <img class="rounded-lg img-fluid" src="{{Storage::url('justice/woman-ww.jpg')}}" alt="" >
+                                <img class="rounded-lg-top img-fluid" src="{{Storage::url('justice/woman-ww.jpg')}}" alt="" >
                             </div>
-                            <div class="text-center  text-responsive text-truncate">
+                            <div class="shadow-xs text-center text-responsive text-truncate">
                                 <a href="/artist-name" class="text-reset">woman-ww</a>
                                 <p class="text-sm text-muted">01/05/2020</p>
                             </div>
