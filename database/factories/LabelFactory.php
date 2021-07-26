@@ -4,6 +4,7 @@ namespace Database\Factories;
 
 use App\Models\Label;
 use Illuminate\Database\Eloquent\Factories\Factory;
+use Illuminate\Support\Str;
 
 class LabelFactory extends Factory
 {
@@ -21,8 +22,13 @@ class LabelFactory extends Factory
      */
     public function definition()
     {
+        $name = $this->faker->unique()->company();
         return [
-            //
+            'name'=> $name,
+            'slug'=> Str::slug($name),
+            'country'=> $this->faker->country(),
+            'foundation'=> $this->faker->date(),
+            'description'=> $this->faker->paragraph(),
         ];
     }
 }
