@@ -4,6 +4,7 @@ namespace Database\Factories;
 
 use App\Models\Genre;
 use Illuminate\Database\Eloquent\Factories\Factory;
+use Illuminate\Support\Str;
 
 class GenreFactory extends Factory
 {
@@ -21,8 +22,10 @@ class GenreFactory extends Factory
      */
     public function definition()
     {
+        $name = $this->faker->unique()->word(20);
         return [
-            //
+            'name'=> $name,
+            'slug'=> Str::slug($name),
         ];
     }
 }
