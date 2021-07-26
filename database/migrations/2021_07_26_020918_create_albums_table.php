@@ -34,7 +34,10 @@ class CreateAlbumsTable extends Migration
             $table->foreignId('artist_id')
                     ->constrained()  // <-- DEFINE LA RESTRICCION DE LLAVE FORANEA
                     ->onDelete('cascade'); // <-- Si se borra el artista que se borre todos los albums relacionados al mismo
-
+            
+            $table->foreignId('label_id')
+                    ->constrained()  
+                    ->onDelete('cascade');
 
             $table->timestamps();
         });
