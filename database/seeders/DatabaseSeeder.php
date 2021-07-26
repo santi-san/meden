@@ -2,7 +2,9 @@
 
 namespace Database\Seeders;
 
+use App\Models\Genre;
 use Illuminate\Database\Seeder;
+use Illuminate\Support\Facades\Storage;
 
 class DatabaseSeeder extends Seeder
 {
@@ -13,6 +15,13 @@ class DatabaseSeeder extends Seeder
      */
     public function run()
     {
-        // \App\Models\User::factory(10)->create();
+        Storage::deleteDirectory('images');
+        Storage::makeDirectory('images');
+
+        $this->call(ArtistSeeder::class);
+        $this->call(LabelSeeder::class);
+        Genre::factory(10)->create();
+        $this->call(AlbumSeeder::class);
+
     }
 }
