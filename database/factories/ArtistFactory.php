@@ -4,6 +4,7 @@ namespace Database\Factories;
 
 use App\Models\Artist;
 use Illuminate\Database\Eloquent\Factories\Factory;
+use Illuminate\Support\Str;
 
 class ArtistFactory extends Factory
 {
@@ -21,8 +22,15 @@ class ArtistFactory extends Factory
      */
     public function definition()
     {
+
+        $name = $this->faker->unique()->sentence(3);
         return [
-            //
+            'name'=> $name,
+            'slug'=> Str::slug($name),
+            'members'=> $this->faker->words(3),
+            'country'=> $this->faker->country(),
+            'foundation'=> $this->faker->date(),
+            'description'=> $this->faker->paragraph(),
         ];
     }
 }

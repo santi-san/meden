@@ -18,8 +18,8 @@ class CreateArtistsTable extends Migration
             $table->string('name');
             $table->string('slug');
             $table->string('members');
+            $table->string('country');
             $table->date('foundation');
-            $table->string('founded_at');
             $table->string('description');
 
             $table->timestamps();

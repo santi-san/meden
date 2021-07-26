@@ -19,7 +19,7 @@ class CreateLabelsTable extends Migration
             $table->string('slug');
             $table->string('origin');
             $table->date('foundation');
-            $table->string('founded_at');
+            $table->string('country');
             $table->string('description');
 
             $table->timestamps();
