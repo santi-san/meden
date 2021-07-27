@@ -23,14 +23,14 @@ class ArtistFactory extends Factory
     public function definition()
     {
 
-        $name = $this->faker->unique()->sentence(3);
+        $name = $this->faker->sentence(3);
         return [
-            'name'=> $name,
-            'slug'=> Str::slug($name),
-            'members'=> $this->faker->words(3),
-            'country'=> $this->faker->country(),
-            'foundation'=> $this->faker->date(),
-            'description'=> $this->faker->paragraph(),
+            'name' => $name,
+            'slug' => Str::slug($name, '-'),
+            'members' => $this->faker->words(3, true),
+            'country' => $this->faker->country(),
+            'foundation' => $this->faker->date(),
+            'description' => $this->faker->paragraph(),
         ];
     }
 }

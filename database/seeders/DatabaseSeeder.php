@@ -15,8 +15,8 @@ class DatabaseSeeder extends Seeder
      */
     public function run()
     {
-        Storage::deleteDirectory('images');
-        Storage::makeDirectory('images');
+        Storage::deleteDirectory('img');
+        Storage::makeDirectory('img');
 
         $this->call(ArtistSeeder::class);
         $this->call(LabelSeeder::class);
