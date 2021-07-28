@@ -15,11 +15,8 @@
 
 .img-filter{
     position: relative;
-    display: inline-block;
-    max-width: 117px;
-    background-size: 100% 98%;
+    background-size: 100% 100%;
     background-repeat: no-repeat;
-    padding: 0;
 }
 .img-index{
     z-index: 1;

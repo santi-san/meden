@@ -8,8 +8,8 @@
 
 @section('content')
     <div class="row">
-        {{-- Top Artists --}}
-        <div class="col-12 col-sm-12 col-lg-6 col-xl-6 mb-3">
+        {{-- Top Artists
+         <div class="col-12 col-sm-12 col-lg-6 col-xl-6 mb-3">
             <div class="shadow-xs rounded-lg py-3 px-3 light-bg">
                 <div class="d-flex justify-content-between pb-3">
                     <div>
@@ -87,8 +87,34 @@
                     </div>
                 </div>
             </div>
+        </div> --}}
+        <div class="col-12 col-sm-12 col-lg-6 col-xl-6 mb-3">
+            <div class="shadow-xs rounded-lg py-3 px-3 light-bg">
+                <div class="d-flex justify-content-between pb-3">
+                    <div>
+                        <span class="title">TOP ARTISTS</span>
+                        <span class="text-xs">(This week)</span>
+                    </div>
+                    <div>See All</div>
+                </div>
+                <div class="row">
+                    @foreach ($artists as $artist)
+                    <div class="col-2 col-sm-2 col-lg-3 col-xl-2 ">
+                        <div class="kard">
+                            <div class="img-filter rounded-lg">
+                                <img class="rounded-lg img-fluid img-index" src="{{Storage::url($artist->image->url)}}" alt="{{$artist->name}}">
+                            </div>
+                            <div class="text-center text-responsive text-truncate mt-3">
+                                <a href="/artist-name" class="kard-link font-weight-bold">{{ $artist->name }}</a>
+                                <p class="text-sm text-muted">157 views</p>
+                            </div>
+                        </div>
+                    </div>
+                    @endforeach
+                </div>
+            </div>
         </div>
-        {{-- Top ALBUMS --}}
+        {{-- Top ALBUMS 
         <div class="col-12 col-sm-12 col-lg-6 col-xl-6 mb-3">
             <div class="shadow-xs rounded-lg py-3 px-3 light-bg">
                 <div class="d-flex justify-content-between pb-3">
@@ -167,8 +193,34 @@
                     </div>
                 </div>
             </div>
+        </div> --}}
+        <div class="col-12 col-sm-12 col-lg-6 col-xl-6 mb-3">
+            <div class="shadow-xs rounded-lg py-3 px-3 light-bg">
+                <div class="d-flex justify-content-between pb-3">
+                    <div>
+                        <span class="title">TOP ALBUMS</span>
+                        <span class="text-xs">(This week)</span>
+                    </div>
+                    <div>See All</div>
+                </div>
+                <div class="row">
+                    @foreach ($albums as $album)
+                    <div class="col-2 col-sm-2 col-lg-3 col-xl-2 ">
+                        <div class="kard">
+                            <div class="img-filter rounded-lg">
+                                <img class="rounded-lg img-fluid img-index" src="{{Storage::url($album->image->url)}}" alt="{{$album->name}}">
+                            </div>
+                            <div class="text-center text-responsive text-truncate mt-3">
+                                <a href="/album-name" class="kard-link font-weight-bold">{{$album->name}}</a>
+                                <p class="text-truncate text-sm text-muted">{{ $album->artist->name }}</p>
+                            </div>
+                        </div>
+                    </div>
+                    @endforeach
+                </div>
+            </div>
         </div>
-        {{-- LATEST RELEASES --}}
+        {{-- LATEST RELEASES 
         <div class="col-12 col-sm-12 col-lg-12 col-xl-10 mb-3">
             <div class="shadow-xs rounded-lg py-3 px-3 light-bg">
                 <div class="d-flex justify-content-between mb-3 ">
@@ -288,8 +340,33 @@
                     </div>
                 </div>
             </div>
+        </div>--}}
+        <div class="col-12 col-sm-12 col-lg-12 col-xl-10 mb-3">
+            <div class="shadow-xs rounded-lg py-3 px-3 light-bg">
+                <div class="d-flex justify-content-between mb-3 ">
+                    <div>
+                        <span class="title">LATEST RELEASES</span>
+                    </div>
+                    <div>See All</div>
+                </div>
+                <div class="row">
+                    @foreach ($albums as $album)
+                    <div class="col-12 col-sm-6 col-lg-4 col-xl-3 pb-2">
+                        <div class="bg-latest rounded-lg d-flex">
+                            <div  style="height: 60px;width: 60px;margin-right: 16px;">
+                                <img class="rounded-lg" src="{{Storage::url($album->image->url)}}" alt="{{$album->name}}" style="height: 100%;object-fit: cover;width: 100%;">
+                            </div>
+                            <div class="text-responsive text-truncate" style="width: calc(100% - 86px);align-self: center;">
+                                {{$album->name}}
+                                <span class="text-sm text-truncate text-muted" style="display: block;">{{$album->artist->name}}</span>
+                            </div>  
+                        </div>
+                    </div>
+                    @endforeach
+                </div>
+            </div>
         </div>
-        {{-- Genres --}}
+        {{-- Genres 
         <div class="col-12 col-sm-12 col-lg-12 col-xl-2 mb-3">
             <div class="shadow-xs rounded-lg py-3 px-3 light-bg">
                 <div class="d-flex justify-content-between pb-3">
@@ -311,6 +388,20 @@
                 <p class="px-2 py-2 mb-2 d-inline-block bg-white rounded-lg">Electronic</p>
                 <p class="px-2 py-2 mb-2 d-inline-block bg-white rounded-lg">Jazz</p>
                 <p class="px-2 py-2 mb-2 d-inline-block bg-white rounded-lg">Kpop</p>
+                
+            </div>
+        </div>--}}
+        <div class="col-12 col-sm-12 col-lg-12 col-xl-2 mb-3">
+            <div class="shadow-xs rounded-lg py-3 px-3 light-bg">
+                <div class="d-flex justify-content-between pb-3">
+                    <div>
+                        <span class="title">TOP GENRES</span>
+                    </div>
+                    <div>See All</div>
+                </div>
+                @foreach ($genres as $genre)
+                    <p class="px-2 py-2 mb-2 d-inline-block bg-latest rounded-lg">{{$genre->name}}</p>
+                @endforeach
                 
             </div>
         </div>
