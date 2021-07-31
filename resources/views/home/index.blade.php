@@ -211,7 +211,7 @@
                                 <img class="rounded-lg img-fluid img-index" src="{{Storage::url($album->image->url)}}" alt="{{$album->name}}">
                             </div>
                             <div class="text-center text-responsive text-truncate mt-3">
-                                <a href="/album-name" class="kard-link font-weight-bold">{{$album->name}}</a>
+                                <a href="{{route('album.show', $album->slug)}}" class="kard-link font-weight-bold">{{$album->name}}</a>
                                 <p class="text-truncate text-sm text-muted">{{ $album->artist->name }}</p>
                             </div>
                         </div>

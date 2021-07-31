@@ -1,6 +1,10 @@
 <?php
 
+use App\Http\Controllers\AlbumController;
+use App\Http\Controllers\ArtistController;
+use App\Http\Controllers\GenreController;
 use App\Http\Controllers\HomeController;
+use App\Http\Controllers\LabelController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -17,6 +21,11 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', [HomeController::class, 'index']);
 Route::get('/artist-name', [HomeController::class, 'artist']);
 Route::get('/album-name', [HomeController::class, 'album']);
+
+Route::resource('album', AlbumController::class);
+Route::resource('artist', ArtistController::class);
+Route::resource('genre', GenreController::class);
+Route::resource('label', LabelController::class);
 
 Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
     return view('dashboard');

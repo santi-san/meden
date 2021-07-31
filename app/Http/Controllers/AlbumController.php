@@ -14,7 +14,10 @@ class AlbumController extends Controller
      */
     public function index()
     {
-        //
+        $albums = Album::orderBy('name')
+                    ->get();
+        
+        return view('album.index', compact('albums'));
     }
 
     /**
@@ -46,7 +49,7 @@ class AlbumController extends Controller
      */
     public function show(Album $album)
     {
-        //
+        return view('album.show', compact('album'));
     }
 
     /**
