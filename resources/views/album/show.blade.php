@@ -102,6 +102,9 @@
                 </div>
             </div><!--end album -->
         </div><!--end col -->
+        <div class="col-12 col-sm-12 col-lg-12 col-xl-12 pb-3">
+            more from this label goes here AKA related albums from same label album
+        </div>
     </div><!--end row -->
 @stop
 

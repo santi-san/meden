@@ -105,7 +105,7 @@
                                 <img class="rounded-lg img-fluid img-index" src="{{Storage::url($artist->image->url)}}" alt="{{$artist->name}}">
                             </div>
                             <div class="text-center text-responsive text-truncate mt-3">
-                                <a href="/artist-name" class="kard-link font-weight-bold">{{ $artist->name }}</a>
+                                <a href="{{route('artist.show', $artist->slug)}}" class="kard-link font-weight-bold">{{ $artist->name }}</a>
                                 <p class="text-sm text-muted">157 views</p>
                             </div>
                         </div>
@@ -352,15 +352,19 @@
                 <div class="row">
                     @foreach ($albums as $album)
                     <div class="col-12 col-sm-6 col-lg-4 col-xl-3 pb-2">
-                        <div class="bg-latest rounded-lg d-flex">
-                            <div  style="height: 60px;width: 60px;margin-right: 16px;">
-                                <img class="rounded-lg" src="{{Storage::url($album->image->url)}}" alt="{{$album->name}}" style="height: 100%;object-fit: cover;width: 100%;">
+                        <a href="{{route('album.show', $album->slug)}}">
+                            <div class="bg-latest rounded-lg d-flex">
+                                <div style="height: 60px;width: 60px;margin-right: 16px;">
+                                    <img class="rounded-lg" src="{{Storage::url($album->image->url)}}" alt="{{$album->name}}" style="height: 100%;object-fit: cover;width: 100%;">
+                                </div>
+                                <div class="text-responsive text-truncate" style="width: calc(100% - 86px);align-self: center;">
+                                    {{$album->name}}
+                                    <a href="{{route('artist.show', $album->artist->slug)}}">
+                                    <span class="text-sm text-truncate text-muted" style="display: block;">{{$album->artist->name}}</span>
+                                    </a>
+                                </div>
                             </div>
-                            <div class="text-responsive text-truncate" style="width: calc(100% - 86px);align-self: center;">
-                                {{$album->name}}
-                                <span class="text-sm text-truncate text-muted" style="display: block;">{{$album->artist->name}}</span>
-                            </div>  
-                        </div>
+                        </a>
                     </div>
                     @endforeach
                 </div>
