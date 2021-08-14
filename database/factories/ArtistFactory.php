@@ -29,7 +29,7 @@ class ArtistFactory extends Factory
             'slug' => Str::slug($name, '-'),
             'members' => $this->faker->words(3, true),
             'country' => $this->faker->country(),
-            'foundation' => $this->faker->date(),
+            'foundation' => $this->faker->year(),
             'description' => $this->faker->paragraph(),
         ];
     }

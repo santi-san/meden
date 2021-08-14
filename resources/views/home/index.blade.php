@@ -99,14 +99,17 @@
                 </div>
                 <div class="row">
                     @foreach ($artists as $artist)
+                    
                     <div class="col-2 col-sm-2 col-lg-3 col-xl-2 ">
                         <div class="kard">
                             <div class="img-filter rounded-lg">
-                                <img class="rounded-lg img-fluid img-index" src="{{Storage::url($artist->image->url)}}" alt="{{$artist->name}}">
+                                 <img class="rounded-lg img-fluid img-index" src="{{Storage::url($artist->image->url)}} "
+                                alt="{{$artist->name}}"> 
                             </div>
+                            
                             <div class="text-center text-responsive text-truncate mt-3">
                                 <a href="{{route('artist.show', $artist->slug)}}" class="kard-link font-weight-bold">{{ $artist->name }}</a>
-                                <p class="text-sm text-muted">157 views</p>
+                                <p class="text-sm text-muted">{{$artist->country}}</p>
                             </div>
                         </div>
                     </div>
@@ -359,9 +362,9 @@
                                 </div>
                                 <div class="text-responsive text-truncate" style="width: calc(100% - 86px);align-self: center;">
                                     {{$album->name}}
-                                    <a href="{{route('artist.show', $album->artist->slug)}}">
+                                    <object><a href="{{route('artist.show', $album->artist->slug)}}">
                                     <span class="text-sm text-truncate text-muted" style="display: block;">{{$album->artist->name}}</span>
-                                    </a>
+                                    </a></object>
                                 </div>
                             </div>
                         </a>
@@ -419,12 +422,12 @@
 @section('js')
     <script>
         $(function() {
-  $('.img-filter').each(function() {
-    var $url = "http://meden.test/";
+            $('.img-filter').each(function() {
+                var $url = "http://meden.test/";
 
-    var $img = $('img', this).attr('src');
-    $(this).css({'background-image': 'url(' + $url + $img + ')'});
-  });
-});
+                var $img = $('img', this).attr('src');
+                $(this).css({'background-image': 'url(' + $url + $img + ')'});
+            });
+        });
     </script>
 @stop

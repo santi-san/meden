@@ -22,6 +22,7 @@ class DatabaseSeeder extends Seeder
         $this->call(LabelSeeder::class);
         Genre::factory(10)->create();
         $this->call(AlbumSeeder::class);
+        $this->call(CountrySeeder::class);
 
     }
 }

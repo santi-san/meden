@@ -34,7 +34,6 @@
                                 <span class="font-weight-bold">Member/s:</span>
                                     @php
                                         $members = explode(" ", $artist->members);
-                                        $newDate = \Carbon\Carbon::createFromFormat('Y-m-d', $artist->foundation)->format('Y');
                                     @endphp
                                     @foreach ($members as $member)
                                         <a href="{{route('artist.show', $member)}}">{{$member}}</a>@if ( !$loop->last ) -@endif
@@ -42,7 +41,7 @@
                                 </span>
                             </li>
                             <li><span class="font-weight-bold">Origin:</span> {{$artist->country}}</span></li>
-                            <li><span class="font-weight-bold">Since:</span> {{$newDate}}</span></li>
+                            <li><span class="font-weight-bold">Since:</span> {{$artist->foundation}}</span></li>
                         </ul>
                     </div>
                 </div>
@@ -54,9 +53,6 @@
                 <div class="row">
                     {{-- Albums --}}
                     @foreach ($artist->albums as $item)
-                    @php
-                        $newDate = \Carbon\Carbon::createFromFormat('Y-m-d', $artist->foundation)->format('d-m-Y');
-                    @endphp
                     
                     <div class="col-3 col-sm-3 col-lg-3 col-xl-2 pb-3 ">
                         <div>
@@ -65,7 +61,7 @@
                             </div>
                             <div class="shadow-xs text-center text-responsive text-truncate">
                                 <a href="{{route('album.show', $item->slug)}}" class="text-reset">{{$item->name}}</a>
-                                <p class="text-sm text-muted">{{$newDate}}</p>
+                                <p class="text-sm text-muted">{{$artist->foundation}}</p>
                             </div>
                         </div>
                     </div>

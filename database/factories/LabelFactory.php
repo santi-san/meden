@@ -27,7 +27,7 @@ class LabelFactory extends Factory
             'name'=> $name,
             'slug'=> Str::slug($name),
             'country'=> $this->faker->country(),
-            'foundation'=> $this->faker->date(),
+            'foundation'=> $this->faker->year(),
             'description'=> $this->faker->paragraph(),
         ];
     }

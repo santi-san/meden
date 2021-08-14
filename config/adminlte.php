@@ -253,11 +253,11 @@ return [
             'label'       => 4,
             'label_color' => 'success',
         ],
-        ['header' => 'account_settings'],
+        ['header' => 'Admin'],
         [
-            'text' => 'profile',
-            'url'  => 'admin/settings',
-            'icon' => 'fas fa-fw fa-user',
+            'text' => 'Artists',
+            'route'  => 'artist.index',
+            'icon' => 'fas fas fa-users',
         ],
         [
             'text' => 'change_password',

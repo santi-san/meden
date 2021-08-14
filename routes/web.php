@@ -19,8 +19,8 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', [HomeController::class, 'index']);
-Route::get('/artist-name', [HomeController::class, 'artist']);
-Route::get('/album-name', [HomeController::class, 'album']);
+// Route::get('/artist-name', [HomeController::class, 'artist']);
+// Route::get('/album-name', [HomeController::class, 'album']);
 
 Route::resource('album', AlbumController::class);
 Route::resource('artist', ArtistController::class);
