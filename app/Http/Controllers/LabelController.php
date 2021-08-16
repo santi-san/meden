@@ -66,7 +66,7 @@ class LabelController extends Controller
     
     public function show(Label $label)
     {
-        return view('label.show', compact('artist'));
+        return view('label.show', compact('label'));
     }
 
     
@@ -81,7 +81,7 @@ class LabelController extends Controller
     {
         $request->validate([
             'name' => 'required|min:2|max:255',
-            'slug' => 'required|unique:artists,slug,' . $label->id,
+            'slug' => 'required|unique:labels,slug,' . $label->id,
             'country' => 'required',
             'foundation' => 'required',
             'description' => 'required|min:2|',
@@ -130,6 +130,6 @@ class LabelController extends Controller
     {
         $label->delete();
         Storage::delete($label->image->url);
-        return redirect()->route('label.index')->with(['mensaje'=>'Label  ' . $label->name . ': Deleted successfully.']);;
+        return redirect()->route('label.index')->with(['mensaje'=>'Label  ' . $label->name . ': Deleted successfully.']);
     }
 }

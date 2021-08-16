@@ -265,6 +265,11 @@ return [
             'icon' => 'fas fa-compact-disc',
         ],
         [
+            'text' => 'Genres',
+            'route'  => 'genre.index',
+            'icon' => 'fas fa-drum',
+        ],
+        [
             'text' => 'change_password',
             'url'  => 'admin/settings',
             'icon' => 'fas fa-fw fa-lock',

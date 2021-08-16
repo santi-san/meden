@@ -7,79 +7,80 @@ use Illuminate\Http\Request;
 
 class GenreController extends Controller
 {
-    /**
-     * Display a listing of the resource.
-     *
-     * @return \Illuminate\Http\Response
-     */
+
     public function index()
     {
-        //
+        $genres = Genre::latest('id')->get();
+
+        return view('genre.index', compact('genres'));
     }
 
-    /**
-     * Show the form for creating a new resource.
-     *
-     * @return \Illuminate\Http\Response
-     */
+
     public function create()
     {
-        //
+        $genre = new Genre();
+
+        return view('genre.create', compact('genre'));
     }
 
-    /**
-     * Store a newly created resource in storage.
-     *
-     * @param  \Illuminate\Http\Request  $request
-     * @return \Illuminate\Http\Response
-     */
+
     public function store(Request $request)
     {
-        //
+        $request->validate([
+            'name' => 'required|min:2|max:255',
+            'slug' => 'required|unique:artists,slug',
+            ],
+            [
+            'name.required' => 'The name is required.',
+            'name.min' => 'The name must be at least 2 characters.',
+            'name.max' => 'The name must not be longer than 255 characters.',
+            'slug.required' => 'The slug is required.',
+            'slug.unique' => 'The slug name is already in use, try adding a number at the end of the name.',
+            ]
+        );
+
+        Genre::create($request->all());
+
+        return redirect()->route('genre.index')->with(['mensaje'=>'Genre ' . $request->name . ': Added correctly.']);
     }
 
-    /**
-     * Display the specified resource.
-     *
-     * @param  \App\Models\Genre  $genre
-     * @return \Illuminate\Http\Response
-     */
+
     public function show(Genre $genre)
     {
-        //
+        return view('genre.show', compact('genre'));
     }
 
-    /**
-     * Show the form for editing the specified resource.
-     *
-     * @param  \App\Models\Genre  $genre
-     * @return \Illuminate\Http\Response
-     */
+
     public function edit(Genre $genre)
     {
-        //
+        return view('genre.edit', compact('genre'));
     }
 
-    /**
-     * Update the specified resource in storage.
-     *
-     * @param  \Illuminate\Http\Request  $request
-     * @param  \App\Models\Genre  $genre
-     * @return \Illuminate\Http\Response
-     */
+
     public function update(Request $request, Genre $genre)
     {
-        //
+        $request->validate([
+            'name' => 'required|min:2|max:255',
+            'slug' => 'required|unique:genres,slug,' . $genre->id,
+            ],
+            [
+            'name.required' => 'The name is required.',
+            'name.min' => 'The name must be at least 2 characters.',
+            'name.max' => 'The name must not be longer than 255 characters.',
+            'slug.required' => 'The slug is required.',
+            'slug.unique' => 'The slug name is already in use, try adding a number at the end of the name.',
+            ]
+        );
+
+        $genre->update($request->all());
+
+        return redirect()->route('label.index')->with(['mensaje'=>'Genre ' . $request->name . ' updated successfully.']);
+
     }
 
-    /**
-     * Remove the specified resource from storage.
-     *
-     * @param  \App\Models\Genre  $genre
-     * @return \Illuminate\Http\Response
-     */
     public function destroy(Genre $genre)
     {
-        //
+        $genre->delete();
+        return redirect()->route('genre.index')->with(['mensaje'=>'genre  ' . $genre->name . ' deleted successfully.']);
     }
 }
