@@ -38,7 +38,7 @@ class ArtistController extends Controller
             [
             'name.required' => 'The name is required.',
             'name.min' => 'The name must be at least 2 characters.',
-            'name.max' => 'The product must not be longer than 255 characters.',
+            'name.max' => 'The name must not be longer than 255 characters.',
             'slug.required' => 'The slug is required.',
             'slug.unique' => 'The slug name is already in use, try adding a number at the end of the name.',
             'members.required' => 'The members is required.',
@@ -53,7 +53,6 @@ class ArtistController extends Controller
         );
 
         $artist = Artist::create($request->all());
-        $url = ' ';
         if ($request->file('file')) {
             $url = Storage::put('public/img', $request->file('file'));
 
@@ -61,7 +60,7 @@ class ArtistController extends Controller
                 'url' => $url
             ]);
         }
-        return redirect()->route('artist.index')->with(['mensaje'=>'Artist: Added correctly.']);
+        return redirect()->route('artist.index')->with(['mensaje'=>'Artist ' . $request->name . ': Added correctly.']);
     }
 
 
@@ -126,13 +125,13 @@ class ArtistController extends Controller
             }
         }
 
-        return redirect()->route('artist.index')->with(['mensaje'=>'Artist: Updated successfully.']);
+        return redirect()->route('artist.index')->with(['mensaje'=>'Artist ' . $request->name . ': Updated successfully.']);
     }
 
     public function destroy(Artist $artist)
     {
         $artist->delete();
 
-        return redirect()->route('artist.index');
+        return redirect()->route('artist.index')->with(['mensaje'=>'Artist ' . $artist->name . ': Deleted successfully.']);;
     }
 }

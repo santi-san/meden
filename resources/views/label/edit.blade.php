@@ -3,19 +3,20 @@
 @section('title', 'Dashboard')
 
 @section('content_header')
-    <h1>Create Label</h1>
+    <h1>inebtge</h1>
 @stop
 
 @section('content')
   <div class="card">
     <div class="card-header">
-        <h2>New Artist</h2>
+        <h2>Update Label</h2>
     </div>
     <div class="card-body">
-      <form action="{{route('label.store')}}" method="POST" enctype="multipart/form-data">
+      <form action="{{route('label.update', $label)}}" method="POST" enctype="multipart/form-data">
         @csrf
-        @include('partials.ArtistForm')
-        <button type="submit" class="btn btn-primary mt-4">CREATE</button>
+        @method('PUT')
+        @include('partials.LabelForm')
+        <button type="submit" class="btn btn-primary mt-4">UPDATE</button>
       </form>
     </div>
   </div>
@@ -30,8 +31,8 @@
    <script src="https://cdn.ckeditor.com/ckeditor5/29.0.0/classic/ckeditor.js"></script>
 
    <script>
-      // Create slug
-      $(document).ready( function() {
+     // Create slug
+     $(document).ready( function() {
         $("#name").stringToSlug({
           setEvents: 'keyup keydown blur',
           getPut: '#slug',
@@ -39,16 +40,16 @@
         });
       });
 
-      // Editor
-      ClassicEditor
-        .create( document.querySelector( '#description' ) )
-        .catch( error => {
-            console.error( error );
-        } );
+    // Editor
+    ClassicEditor
+      .create( document.querySelector( '#description' ) )
+      .catch( error => {
+          console.error( error );
+      } );
 
 
-      // Change image
-      document.getElementById("file").addEventListener('change', changeImage);
+    // Change image
+    document.getElementById("file").addEventListener('change', changeImage);
 
       function changeImage(event){
           var file = event.target.files[0];

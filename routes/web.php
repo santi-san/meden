@@ -22,10 +22,10 @@ Route::get('/', [HomeController::class, 'index']);
 // Route::get('/artist-name', [HomeController::class, 'artist']);
 // Route::get('/album-name', [HomeController::class, 'album']);
 
-Route::resource('album', AlbumController::class);
+Route::resource('label', LabelController::class);
 Route::resource('artist', ArtistController::class);
 Route::resource('genre', GenreController::class);
-Route::resource('label', LabelController::class);
+Route::resource('album', AlbumController::class);
 
 Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
     return view('dashboard');

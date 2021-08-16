@@ -260,6 +260,11 @@ return [
             'icon' => 'fas fas fa-users',
         ],
         [
+            'text' => 'Labels',
+            'route'  => 'label.index',
+            'icon' => 'fas fa-compact-disc',
+        ],
+        [
             'text' => 'change_password',
             'url'  => 'admin/settings',
             'icon' => 'fas fa-fw fa-lock',

@@ -9,7 +9,7 @@
 @section('content')
   <div class="card">
     <div class="card-header">
-        <h2>New Artist</h2>
+        <h2>Update Artist</h2>
     </div>
     <div class="card-body">
       <form action="{{route('artist.update', $artist)}}" method="POST" enctype="multipart/form-data">

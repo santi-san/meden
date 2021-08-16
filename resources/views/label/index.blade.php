@@ -15,15 +15,15 @@
 
 <div class="card">
     <div class="card-header">
-        <a class="btn btn-secondary" href="{{route('artist.create')}}">New Artist</a>
+        <a class="btn btn-secondary" href="{{route('label.create')}}">New Label</a>
     </div>
 </div>
     <table class="table table-striped">
         <thead>
             <tr>
                 <th>ID</th>
-                <th>Name</th>
-                <th>members</th>
+                <th>img</th>
+                <th>name</th>
                 <th>country</th>
                 <th>foundation</th>
                 <th>description</th>
@@ -31,22 +31,22 @@
             </tr>
         </thead>
         <tbody>
-            @forelse ($artists as $artist)
+            @forelse ($labels as $label)
             <tr>
-                <td>{{$artist->id}}</td>
-                <td>{{$artist->name}}</td>
-                <td>{{$artist->members}}</td>
-                <td>{{$artist->country}}</td>
-                <td>{{$artist->foundation}}</td>
-                <td>{{$artist->description}}</td>
+                <td>{{$label->id}}</td>
+                <td><img src="{{Storage::url($label->image->url)}}" alt="" class="rounded-circle" width=30px; height=30px;></td>
+                <td>{{$label->name}}</td>
+                <td>{{$label->country}}</td>
+                <td>{{$label->foundation}}</td>
+                <td>{{$label->description}}</td>
                 <td width="10px">
-                    <a class="btn btn-sm btn-primary" href="{{route('artist.edit', $artist)}}">Edit</a>
+                    <a class="btn btn-sm btn-primary" href="{{route('label.edit', $label)}}">Editar</a>
                 </td>
                 <td width="10px">
-                    <form method="POST" action="{{route('artist.destroy', $artist)}}">
+                    <form method="POST" action="{{route('label.destroy', $label)}}">
                         {{ method_field('DELETE') }}
                         @csrf
-                        <input type="submit" value="Delete" class="btn btn-danger btn-sm" >
+                        <input type="submit" value="Eliminar" class="btn btn-danger btn-sm" >
                     </form>
                 </td>
             </tr>
