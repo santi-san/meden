@@ -262,12 +262,17 @@ return [
         [
             'text' => 'Labels',
             'route'  => 'label.index',
-            'icon' => 'fas fa-compact-disc',
+            'icon' => 'fas fa-tags',
         ],
         [
             'text' => 'Genres',
             'route'  => 'genre.index',
             'icon' => 'fas fa-drum',
+        ],
+        [
+            'text' => 'Album',
+            'route'  => 'album.index',
+            'icon' => 'fas fa-record-vinyl',
         ],
         [
             'text' => 'change_password',

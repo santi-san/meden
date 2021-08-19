@@ -15,13 +15,14 @@
 
 <div class="card">
     <div class="card-header">
-        <a class="btn btn-secondary" href="{{route('artist.create')}}">New Artist</a>
+        <a class="btn btn-secondary" href="{{route('artist.create')}}">Nuevo Artista</a>
     </div>
 </div>
     <table class="table table-striped">
         <thead>
             <tr>
                 <th>ID</th>
+                <th>Cover</th>
                 <th>Name</th>
                 <th>members</th>
                 <th>country</th>
@@ -34,6 +35,7 @@
             @forelse ($artists as $artist)
             <tr>
                 <td>{{$artist->id}}</td>
+                <td><img src="{{Storage::url($artist->image->url)}}" alt="" class="rounded-circle" width=30px; height=30px;></td>
                 <td>{{$artist->name}}</td>
                 <td>{{$artist->members}}</td>
                 <td>{{$artist->country}}</td>

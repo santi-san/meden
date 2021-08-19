@@ -7,80 +7,67 @@ use Illuminate\Http\Request;
 
 class AlbumController extends Controller
 {
-    /**
-     * Display a listing of the resource.
-     *
-     * @return \Illuminate\Http\Response
-     */
+
     public function index()
     {
-        $albums = Album::orderBy('name')
-                    ->get();
+        $albums = Album::latest('id')->get();
         
         return view('album.index', compact('albums'));
     }
 
-    /**
-     * Show the form for creating a new resource.
-     *
-     * @return \Illuminate\Http\Response
-     */
     public function create()
     {
-        //
+        $album = new Album();
+        return view('album.create', compact( 'album'));
     }
 
-    /**
-     * Store a newly created resource in storage.
-     *
-     * @param  \Illuminate\Http\Request  $request
-     * @return \Illuminate\Http\Response
-     */
     public function store(Request $request)
     {
-        //
+        
+       $request->validate([
+            'name' => 'required|min:2|max:255',
+            'slug' => 'required|unique:artists,slug',
+            'catalog' => 'required',
+            'released_at' => 'required',
+            'format' => 'required',
+            'tracklist' => 'required|min:2|',
+            'artist_id' => 'required',
+            'label_id' => 'required',
+            'file' => 'required|image',
+        ],
+        [
+            'name.required' => 'The name is required.',
+            'name.min' => 'The name must be at least 2 characters.',
+            'name.max' => 'The name must not be longer than 255 characters.',
+            'slug.required' => 'The slug is required.',
+            'slug.unique' => 'The slug name is already in use, try adding a number at the end of the name.',
+            'catalog.required' => 'The catalog is required.',
+            'released_at.required' => 'The release date is required.',
+            'format.required' => 'The format is required.',
+            'tracklist.required' => 'The tracklist is required.',
+            'tracklist.min' => 'The tracklist must be at least 10 characters.',
+            'file.max' => 'La imagen no puede estar vacia.',
+            'file.required' => 'The image is required.',
+            'file.image' => 'The image must be a valid format of image.',
+        ]
+        );
     }
 
-    /**
-     * Display the specified resource.
-     *
-     * @param  \App\Models\Album  $album
-     * @return \Illuminate\Http\Response
-     */
     public function show(Album $album)
     {
         return view('album.show', compact('album'));
     }
 
-    /**
-     * Show the form for editing the specified resource.
-     *
-     * @param  \App\Models\Album  $album
-     * @return \Illuminate\Http\Response
-     */
     public function edit(Album $album)
     {
         //
     }
 
-    /**
-     * Update the specified resource in storage.
-     *
-     * @param  \Illuminate\Http\Request  $request
-     * @param  \App\Models\Album  $album
-     * @return \Illuminate\Http\Response
-     */
     public function update(Request $request, Album $album)
     {
         //
     }
 
-    /**
-     * Remove the specified resource from storage.
-     *
-     * @param  \App\Models\Album  $album
-     * @return \Illuminate\Http\Response
-     */
     public function destroy(Album $album)
     {
         //
