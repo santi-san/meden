@@ -4,12 +4,14 @@ namespace App\Http\Livewire;
 
 use App\Models\Artist;
 use Livewire\Component;
+use PHPUnit\TextUI\XmlConfiguration\CodeCoverage\Report\Php;
 
 class SearchArtist extends Component
 {
 
     public $buscar;
     public $artistas;
+    public $artist_id;
     public $picked;
 
 
@@ -17,8 +19,26 @@ class SearchArtist extends Component
         $this->buscar = '';
         $this->artistas = [];
         $this->picked = true;
+        $this->artist_id = '';
+
     }
 
+
+    public function asignarPrimero() {
+       $artistas = Artist::where('name', 'like', $this->buscar . '%')->first();
+       if($artistas)
+       {
+            $this->buscar = $artistas->name;
+            $this->artist_id = $artistas->id;
+
+            $this->picked = true;
+       }
+       else
+       {
+            $this->buscar = '';
+            $this->picked = false;
+       }
+    }
     public function updatedBuscar() {
 
         $this->picked = false;
@@ -28,24 +48,13 @@ class SearchArtist extends Component
                             ->get();
     }
 
-    public function asignarUsuario($nombre){
+    public function asignarUsuario($id, $nombre){
         $this->buscar = $nombre;
+        $this->artist_id = $id;
         $this->picked = true;
     }
 
-    public function asignarPrimero() {
-       $artistas = Artist::where('name', 'like', $this->buscar . '%')->first();
-       if($artistas)
-       {
-            $this->buscar = $artistas->name;
-            $this->picked = true;
-       }
-       else
-       {
-            $this->buscar = '';
-            $this->picked = false;
-       }
-    }
+    
 
     public function render()
     {

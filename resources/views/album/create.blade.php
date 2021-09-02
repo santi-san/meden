@@ -23,13 +23,22 @@
 
 @section('css')
     <link rel="stylesheet" href="/css/admin_custom.css">
+    {{-- <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" /> --}}
+
 @stop
 
 @section('js')
    <script src="{{asset('vendor/jQuery-Plugin-stringToSlug-1.3/jquery.stringToSlug.min.js')}}"></script>
    <script src="https://cdn.ckeditor.com/ckeditor5/29.0.0/classic/ckeditor.js"></script>
+   {{-- <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script> --}}
 
-   <script>
+<script>
+     /*  // Select genres
+      $("#genre").select2({
+               placeholder: 'select one o more options',
+               allowClear: true
+           }); */
+
       // Create slug
       $(document).ready( function() {
         $("#name").stringToSlug({
@@ -41,10 +50,13 @@
 
       // Editor
       ClassicEditor
-        .create( document.querySelector( '#tracklist' ) )
-        .catch( error => {
-            console.error( error );
-        } );
+        .create( document.querySelector( '#tracklist' ), {
+        removePlugins: [ 'Heading' ],
+        toolbar: [ 'bold',  'numberedList', ]
+    } )
+    .catch( error => {
+        console.log( error );
+    } );
 
 
       // Change image

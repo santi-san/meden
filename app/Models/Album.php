@@ -9,8 +9,10 @@ class Album extends Model
 {
     use HasFactory;
 
-    protected $fillable = ['name','slug','catalog','released_at','format','tracklist'];
-
+    protected $fillable = ['name','slug','catalog','released_at','format','tracklist', 'artist_id', 'label_id'];
+    protected $casts = [
+        'released_at ' => 'datetime:Y-m-d',
+      ];
     // Relacion uno a muchos inversa
     public function artist() {
         return $this->belongsTo(Artist::class);

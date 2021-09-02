@@ -1,27 +1,30 @@
-<div class="form-row">
+<div class="form-group">
     
-    <div class="form-group col-md-4">
-        <label for="artist_id">Artist</label><br>
+    <div>
+        <label for="buscar">Artist</label><br>
         <input 
             type="text"
-            class="form-control @error('artist_id') is-invalid @enderror" 
+            class="form-control @error('buscar') is-invalid @enderror" 
             id="buscar"
-            name="artist_id"
             placeholder="Search artist"
-            wire:model="buscar"
+            wire:model.debounce.500ms="buscar"
             wire:keydown.enter="asignarPrimero()"
+            autocomplete="off"
         >
+        <input type="hidden" name="artist_id"
+        wire:model="artist_id">
     </div>
-    <div class="form-group col-md-8">
         @if(count($artistas)>0)
-            <label for="artist_id">Select artist</label>
-            <select class="form-control" id="artist_id">
             @if(!$picked)
                 @foreach ($artistas as $artista)
-                    <option value="{{$artista->id}}" {{old('artist_id', $artista->name) == $artista->name ? 'selected' : ''}}>{{$artista->name}}</option>
-                @endforeach
+                <div style="display: inline-block; padding-top: 8px">
+                        <a href="#" style="cursor: pointer;background: #353535;color: #47bba5;padding:4px 8px;border-radius: 3px;" 
+                        wire:click="asignarUsuario({{ $artista->id }}, '{{ $artista->name }}')">{{$artista->name}}</a>
+                     
+                </div>
+            @endforeach
             @endif
-            </select>
+        @else
+            <small>search the artist of this album</small>
         @endif
-    </div>
 </div>

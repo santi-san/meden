@@ -9,15 +9,17 @@
 @section('content')
   <div class="card">
     <div class="card-header">
-        <h2>Update Artist</h2>
+        <h2>Update Album</h2>
     </div>
     <div class="card-body">
-      <form action="{{route('artist.update', $artist)}}" method="POST" enctype="multipart/form-data">
-        @csrf
-        @method('PUT')
-        @include('partials.ArtistForm')
-        <button type="submit" class="btn btn-primary mt-4">UPDATE</button>
-      </form>
+      {!! Form::open($album,['route' => 'album.update', 'automcomplete' => 'off', 'files' => true]) !!}
+    
+        @include('partials.AlbumForm')
+
+        {!! Form::submit('Update', ['class' => 'btn btn-primary']) !!}
+        {{--<button type="submit" class="btn btn-primary mt-4">UPDATE</button>
+       </form> --}}
+       {!! Form::close() !!}
     </div>
   </div>
 @stop
@@ -42,10 +44,13 @@
 
     // Editor
     ClassicEditor
-      .create( document.querySelector( '#description' ) )
-      .catch( error => {
-          console.error( error );
-      } );
+        .create( document.querySelector( '#tracklist' ), {
+        removePlugins: [ 'Heading' ],
+        toolbar: [ 'bold',  'numberedList', ]
+    } )
+    .catch( error => {
+        console.log( error );
+    } );
 
 
     // Change image
