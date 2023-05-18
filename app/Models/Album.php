@@ -11,8 +11,8 @@ class Album extends Model
 
     protected $fillable = ['name','slug','catalog','released_at','format','tracklist', 'artist_id', 'label_id'];
     protected $casts = [
-        'released_at ' => 'datetime:Y-m-d',
-      ];
+        'released_at ' => 'datetime:d-m-Y',
+    ];
     // Relacion uno a muchos inversa
     public function artist() {
         return $this->belongsTo(Artist::class);

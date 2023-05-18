@@ -103,6 +103,8 @@
                     <div class="col-2 col-sm-2 col-lg-3 col-xl-2 ">
                         <div class="kard">
                             <div class="img-filter rounded-lg">
+                                {{-- {{ $artist->image->url}}
+                                {{ Storage::url($artist->image->url)}} --}}
                                  <img class="rounded-lg img-fluid img-index" src="{{Storage::url($artist->image->url)}} "
                                 alt="{{$artist->name}}"> 
                             </div>
